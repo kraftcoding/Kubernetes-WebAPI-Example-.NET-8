@@ -1,0 +1,6 @@
+@Minikube_WebAPI_Example_.NET_8_HostAddress = http://localhost:5192
+
+GET {{Minikube_WebAPI_Example_.NET_8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

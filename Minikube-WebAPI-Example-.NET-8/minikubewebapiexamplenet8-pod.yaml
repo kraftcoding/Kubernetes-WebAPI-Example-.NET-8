@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: minikubewebapiexamplenet8
+spec:
+  containers:
+  - name: minikubewebapiexamplenet8
+    image: kraftcoding/minikubewebapiexamplenet8:dev
+    ports:
+    - containerPort: 8080
