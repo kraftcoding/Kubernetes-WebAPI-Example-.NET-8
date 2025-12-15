@@ -74,7 +74,7 @@ NAME
 webapiinminikube   1/1     Running   0 
 
 ## 6. Expose the pod
-    8s 
+
 Right now the pod is running, but it is not accessible from your local machine.
 
 The simplest way to solve this is to port forward the pods it to your local machine.
