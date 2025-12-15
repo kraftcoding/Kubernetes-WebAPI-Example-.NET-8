@@ -1,4 +1,4 @@
-# Minikube WebAPI Example .NET-8
+# Kubernetes WebAPI Example .NET-8
 
 Getting started with Kubernetes is not easy, it feels like there is so much to understand and build to do even the simplest thing. Because of this I often think Kubernetes is being used in scenarios where simpler solutions would be both more appropriate and easier to implement. But this blog post is not about that. This post is also not going to explain what Kubernetes is, or how the pods, deployments, services, etc, relate - there are plenty of very good resources on that. Instead, this post will show you, step by step, how to get a simple ASP.NET Web API application running on Kubernetes using Minikube. Kubernetes locally, it works on Windows, Linux, and Mac.
 
