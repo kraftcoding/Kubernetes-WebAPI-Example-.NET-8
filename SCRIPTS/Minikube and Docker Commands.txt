@@ -1,0 +1,25 @@
+minikube start --driver=docker
+minikube start --driver=VMware (for VMWare virtualization)
+minikube config set driver docker
+minikube delete
+minikube status
+kubectl cluster-info
+minikube dashboard
+
+NOTE: The project must be created with containerization features
+
+1. Add Docker Support to project in VS
+2. Build the Dockerfile
+3. Right click on project "Open in Terminal"
+
+docker login
+docker build -t kraftcoding/minikubewebapiexamplenet8:dev .
+docker images
+docker push kraftcoding/minikubewebapiexamplenet8:dev
+docker pull kraftcoding/minikubewebapiexamplenet8:dev
+
+minikube image load kraftcoding/minikubewebapiexamplenet8:dev
+kubectl apply -f .\LibreraSearch.WebAPI.Docker-pod.yaml
+kubectl get pods
+kubectl port-forward minikubewebapiexamplenet8 8080:8080
+http://localhost:8081
