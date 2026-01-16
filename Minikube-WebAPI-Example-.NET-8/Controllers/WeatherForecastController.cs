@@ -6,6 +6,8 @@ namespace Minikube_WebAPI_Example_.NET_8.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        const string ver = "v1.0.0";
+
         private static readonly string[] Summaries = new[]
         {
              "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
