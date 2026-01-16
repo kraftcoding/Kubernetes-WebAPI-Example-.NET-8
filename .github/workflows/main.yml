@@ -30,7 +30,9 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
+          context: .
+          file: Minikube-WebAPI-Example-.NET-8/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           target: final
-          tags: example-image-name:latest
+          tags: book-store-v1.x/minikubewebapiexamplenet8:latest
